@@ -1,4 +1,6 @@
 # SICP
-sicp exercise solution
+sicp note
 
-# JUST IS MY SOLUTION, MAY BE WORONG.
+> JUST IS MY SOLUTION, MAY BE WORONG.
+
+[Chapter 1]()
