@@ -1,7 +1,16 @@
 # Chapter 1
 
-e1_17
 
+Exercise1-11
+```
+(define (e111 n)
+  (cond ((< n 3) n)
+        (else (+ (e111 (- n 1)) (* 2 (e111 (- n 2))) (* 3 (e111 (- n 3)))))))
+
+(e111 -100)
+```
+
+Exercise1-17
 ```
 #lang racket/base
 
@@ -20,14 +29,4 @@ e1_17
     (/ n 2))
 
 (fast-muti 101 1033)
-```
-
-Exercise1-11
-
-```
-(define (e111 n)
-  (cond ((< n 3) n)
-        (else (+ (e111 (- n 1)) (* 2 (e111 (- n 2))) (* 3 (e111 (- n 3)))))))
-
-(e111 -100)
 ```
