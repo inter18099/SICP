@@ -1,5 +1,4 @@
-# SICP
-sicp note
+# SICP note
 
 > JUST IS MY SOLUTION, MAY BE WORONG.
 
